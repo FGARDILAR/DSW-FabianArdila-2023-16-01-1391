@@ -7,6 +7,17 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0E0A27;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Nav */
 #navbar{
   overflow: auto;
@@ -48,50 +59,66 @@ body {
 
 /* Estilos del header */
 header {
-  background-color: #333;
+  background: #0E0A27;
   color: #fff;
-  padding: 20px;
-/* Posicionamos nuestro header para que aparezca en todas las secciones */
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 140px;
   z-index: 9999;
+  padding: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  position: fixed;
 }
 
+
 /* Estilos de las secciones */
-section {
-  height: 100vh;
+#section {
   display: flex;
   justify-content: left;
   align-items:start;
   flex-direction: column;
   text-align: right;
-  padding-top: 150px; 
+  /*padding-top: 150px; */
+  display: flex;
+  flex-direction: row;
 }
 
 #Inicio {
-  background-color: #eee;
+  margin-top: 140px;
+  z-index: 1;
 }
 
-#Tema {
- background-color: #ccc;
-}
 
 #Mockup {
-  background-color: #aaa;
+   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#Acerca {
-  background-color: #888;
-  color: #fff;
+h1{
+  font-size: 16px;
+}
+.client_box {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.client_box img {
+  width: 310px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
 }
 
 /* Estilos del footer */
 footer {
-  background-color: #333;
-  color: #fff;
+  /*background-color: #333;*/
+  /*color: #fff;*/
   padding: 20px;
   text-align: center;
+  background: #110c30;
 }
