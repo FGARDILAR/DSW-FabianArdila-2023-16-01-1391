@@ -65,3 +65,14 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
+#section {
+	display: flex;
+	justify-content: left;
+	align-items:start;
+	flex-direction: column;
+	text-align: right;
+	/*padding-top: 150px; */
+	display: flex;
+	flex-direction: row;
+  }
